@@ -1,6 +1,11 @@
 var http = require[http];
+
+
 var express = require('express'),
+//importando o modulo express 
+
 app = express();
+// criando um app 
 
 
 app.get('/',function(req,res){
