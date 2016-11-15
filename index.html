@@ -15,28 +15,27 @@
 
 <h1>CSS Form</h1>
 
-<form action="">
+<form action="server.js"method="post">
+//o script pra onde é enviado os dados   //post o methodo que vai ser enviado
+
 	<fieldset>
 		<legend>Login</legend>
 		
 		<label for="username">
 			Username
-			<input class="field" id="username" type="text" />
+			<input class="field" name="username" id="username" type="text" />
 		</label>
 		
 		<label for="secretword">
 			Password
-			<input class="field" id="secretword" type="password" />
+			<input class="field" name= "password"id="secretword" type="password" />
 		</label>
 		
 		<label for="remember-me">
-			<input id="remember-me" type="checkbox" />
+			<input id="remember-me"  type="checkbox" />
 			Remember me
 		</label>
 		
 		<input class="buttom" type="submit" value="Sign in" />
 	</fieldset>
 </form>
-
-</body>
-</html>
