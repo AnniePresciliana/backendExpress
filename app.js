@@ -10,8 +10,14 @@ app = express();
 
 app.get('/',function(req,res){
     res.send("teste");
+// este / é o caminho ,nesse caso a pagina raiz  e uma funcaao calback req e res , que sera chamada 
+//no futuro
+//app get é o mmetodo como get do http
 
 });
 
+
+
 var server = app.listen(3000);
+// o servidor vai escutar a porta 300 que o objeto app TENTA criar o servidor e vincuular na porta 300
 console.log('Servidor Express iniciando na posrta %s',server.adress().port);
