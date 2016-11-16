@@ -21,3 +21,6 @@ app.get('/',function(req,res){
 var server = app.listen(3000);
 // o servidor vai escutar a porta 300 que o objeto app TENTA criar o servidor e vincuular na porta 300
 console.log('Servidor Express iniciando na posrta %s',server.adress().port);
+
+
+//mais um exemplo https://udgwebdev.com/node-js-para-leigos-framework-express-parte-1
