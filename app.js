@@ -8,11 +8,11 @@ app = express();
 // criando um app 
 
 
-app.get('/',function(req,res){
+app.post('/',function(req,res){
     res.send("teste");   //res.send() envia uma resposta de varios tipos 
 // este / é o caminho ,nesse caso a pagina raiz  e uma funcaao calback req e res , que sera chamada 
 //no futuro
-//app get é o mmetodo como get do http
+//app post é o mmetodo como get do http
 
 });
 
